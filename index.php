@@ -14,3 +14,4 @@
     echo "Informacao do host: ". mysqli_get_host_info($con);
     mysqli_close($con);  
 ?>
+
