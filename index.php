@@ -16,7 +16,7 @@
     mysqli_close($con);  
     */
 
-    $nome = $_GET["nome"];
+    $nome = $_GET["nome"]="";
     echo "O nome e: ".$nome;
 ?>
 
